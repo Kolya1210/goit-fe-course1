@@ -1,0 +1,53 @@
+.section__icon-team--social-item{
+    list-style-type: none;
+  }
+  
+  .section__icon-team--social-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+  }
+  
+  .social-item__item{
+    width: 56px;
+    height: 56px;
+    background-color: $color-social-icon;
+    opacity: 0;
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    &:hover{
+        background-color: $color-social-icon-hover;
+        transition: 0.3s ease-in;
+      } 
+    &:hover .social-item__item--fb{
+        fill: #ffffff;
+      }
+    &:hover .social-item__item--twit{
+        fill: #ffffff;
+      }
+    &:hover .social-item__item--pint{
+        fill: #ffffff;
+      } 
+    &:hover .social-item__item--inst{
+        fill: #ffffff;
+      }
+  }
+  .section__icon-team--sub-menu:hover .social-item__item{
+    opacity: 1;  
+  }
+  .social-item__item--fb{
+    fill: $color-social-icon-hover;
+  }
+  .social-item__item--twit{
+    fill: $color-social-icon-hover;
+  } 
+  .social-item__item--pint{
+    fill: $color-social-icon-hover;
+  }
+  .social-item__item--inst{
+    fill: $color-social-icon-hover;
+  }

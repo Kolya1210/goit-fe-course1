@@ -1,0 +1,21 @@
+.header{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-bottom: 110px;
+    padding-top: 40px;
+    font-size: 0;
+  }
+.header nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

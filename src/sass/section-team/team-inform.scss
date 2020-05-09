@@ -1,0 +1,20 @@
+.team__name{
+    font-size: 14px;
+    font-family: $font-primary;
+    color: $color-title;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+  .team__work{
+    font-size: 15px;
+    font-family: $font-section-text;
+    color: $color-text;
+    line-height: 1.6;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }

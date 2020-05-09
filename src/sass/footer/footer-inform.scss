@@ -1,0 +1,21 @@
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+  }
+  .footer__inform{
+    font-size: 14px;
+    font-family: $font-primary;
+    color: rgb(51, 51, 51);
+  }
+  .footer__inform--laaqiq{
+    display: inline-block;
+    font-size: 14px;
+    font-family: $font-primary;
+    text-decoration: none;
+    margin-left: 4px;
+    color: #f38181;
+  }

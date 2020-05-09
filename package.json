@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
+  "homepage": "https://Kolya1210.github.io/goit-fe-course1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"

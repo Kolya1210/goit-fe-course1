@@ -1,0 +1,26 @@
+.section__tittle{
+    margin: 0 auto;
+    margin-bottom: 126px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: $font-primary;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-title;
+  }
+  .section__tittle--cursive{
+    font-family: 'Kaushan Script', Roboto, Arial;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .section__tittle::after{
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    content: '';
+  }

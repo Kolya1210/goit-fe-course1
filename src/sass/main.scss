@@ -1,6 +1,40 @@
 /*
  * Все паршалы импортировать в этот файл
  */
+@import './var/var.scss';
 
 @import 'normalize.scss';
 @import 'base.scss';
+
+
+//COMPONENTS-HEADER//
+@import './components-header/header-logo.scss';
+@import './components-header/header-position.scss';
+@import './components-header/menu-header.scss';
+
+// SECTION-BG//
+@import './section-bg/section-position.scss';
+@import './section-bg/section-title.scss';
+@import './section-bg/section-button.scss';
+
+//SECTION-SERVICES//
+@import './section-services/section-title.scss';
+@import './section-services/services-icon.scss';
+@import './section-services/services-images.scss';
+
+
+//SECTION-TEAM//
+@import './section-team/utilits.scss';
+@import './section-team/section-title.scss';
+@import './section-team/icon-team.scss';
+@import './section-team/sub-menu.scss';
+@import './section-team/lists-social-item.scss';
+@import './section-team/team-inform.scss';
+
+// FOOTER //
+@import './footer/footer-inform.scss';
+@import './footer/footer-bottom.scss';
+
+
+
+

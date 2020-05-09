@@ -1,0 +1,27 @@
+.section__icon-team{
+    width: 380px;
+    height: 545px;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+    &:hover .section__team-images{
+        transform: translate(-10px, -10px); 
+        transition: 0.2s ease-in;  
+    }
+  }
+  
+  .section__icon-team:last-child{
+    margin-right: 0;
+  }
+  
+  .section__icon-team{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .section__team-images{
+    margin-bottom: 30px;
+  }

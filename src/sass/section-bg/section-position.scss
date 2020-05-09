@@ -1,0 +1,14 @@
+.section{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 98px;
+    padding: 0;
+    font-size: 0;
+  }
+  .section.bg{
+      width: 100%;
+      padding-top: 230px;
+      padding-bottom: 170px;
+      background-image: url('../../images/bg.png');
+  }
